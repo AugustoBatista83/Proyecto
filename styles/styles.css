@@ -1,0 +1,221 @@
+/* -----------------------------------------------------------Importaciones------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;500;800&display=swap" rel="stylesheet');
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------- Labels----------------------------------------------------------- */
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+h2{ width: 195px;
+    height: 45.45px;
+    background: #323232;
+    border: none;
+    font-family: 'Kaushan Script', cursive;
+    color: #F5F5F5;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-top: 100px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+h3{ width: 100%;
+    height:30px;
+    background: #323232;
+    margin-right: 100px;
+    font-family: 'Kaushan Script', cursive;
+    color: #F5F5F5;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-top: 100px;
+
+}
+ p{  
+    display: block;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    font-family: 'Outfit', sans-serif;
+    color: #d8c7c7;
+    text-shadow: rgb(18, 16, 16) 1px 0px 1px;   
+}
+    
+
+
+a:link{
+    color: #323232;
+    text-decoration: none;
+}
+a:visited{
+    color: #323232;
+    text-decoration: none;
+}
+a:hover{
+    color: #323232;
+    text-decoration: underline;
+}
+
+main{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section{
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #e3d3d3;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    padding: 10px;
+}
+
+
+
+/* -------------------------------------------------------------Clases-------------------------------------------------------- */
+
+.fondo{
+    background-color: #1e1e1e;
+    width: 100%;
+    margin: 0;
+    padding: 0;   
+}
+
+.button{
+    width: 195px;
+    height: 45.45px;
+    background: #323232;
+    border: none;
+    font-family: 'Outfit', sans-serif;
+    color: #F5F5F5;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17.594px;
+    border-radius: 7px;
+    margin-top: 40px;
+} 
+
+ .image_lateral{
+    background-color: whitesmoke;
+    width: 500px;
+    height: 300%; 
+}
+.image_me{
+    background-color: whitesmoke;
+    width: 267px;
+    height: 312px;
+}
+
+.series{
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.formulario{
+    border: 2px solid rgb(64, 58, 57);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(40, 38, 38), rgb(219, 219, 225));
+
+}
+
+.formulario__forma{
+   margin-left: 500px;
+   margin-right: 500px;
+   margin-bottom: 70px;
+
+}
+
+.series__art{
+    width: 267px;
+    height: 403px;
+    background-color: gainsboro;
+    border-radius: 11px;
+    margin: 10px;
+} 
+
+.galeria__image{
+    justify-content: center; 
+    justify-items: center;
+    margin: 10px 30px 30px 10px;
+    width: 35%; 
+    opacity: 70%;
+    border-radius: 20px;
+    }
+
+.fondovideo{
+    background-color: #323232;
+    margin-top: 200px;
+    }
+
+.about{   
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center; 
+    justify-items: center; 
+    
+
+}
+
+
+
+/*----------------------------------------------------------------------------- Id---------------------------------------------------------- */
+
+#logo{ 
+    border-radius: 100px;
+    }
+#menu{
+    top:0;
+    margin: 0;
+    width: 100%;
+    height: 19x;
+    padding:10px;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+#menu ul{
+    margin: 0;
+    padding:0;
+    padding-right: 20px;
+}
+
+#menu li{
+    text-align: center;
+    display: inline;
+    margin: 10px;
+}
+
+#video{
+    background-color: #323232;
+    margin-left: 500px;
+}
