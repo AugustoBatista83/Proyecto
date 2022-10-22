@@ -1,2 +1,2 @@
 # Proyecto
-Esta es una prueba. 
+Se agrega bootstrap  animaciones y degradar colores
