@@ -97,8 +97,18 @@ footer{
 
 
 /* -------------------------------------------------------------Clases-------------------------------------------------------- */
+.logocontenedor{
+    background-color: whitesmoke;
+}
+    @media (max-width: 768px) 
+    {
+    .logocontenedor{
+        background-color: #000000;
+    }
+    }
 
 .fondo{
+    overflow: scroll;
     background-color: #1e1e1e;
     width: 100%;
     margin: 0;
@@ -140,7 +150,12 @@ footer{
     margin-bottom: 50px;
 }
 
-
+.contacto{
+    display: grid;
+    justify-content:center; 
+    justify-items:center;
+}
+   
 
 .galeria__image{
     justify-content: center; 
@@ -194,6 +209,13 @@ footer{
     max-width: 700px;
     box-shadow: #323232;
     }
+
+@media (max-width: 768px) 
+    {
+    #logo{
+        background-color: #000000;
+    }
+}
 #menu{
     top:0;
     margin: 0;
