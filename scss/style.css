@@ -58,19 +58,13 @@ p {
           margin-inline-end: 0px;
   font-family: "Outfit", sans-serif;
   color: #d8c7c7;
-  text-shadow: rgb(18, 16, 16) 1px 0px 1px;
+  text-shadow: text-shadow rgb(18, 16, 16) 1px 0px 1px;
 }
 
-a:link {
+a:link, a:visited {
   color: #323232;
   text-decoration: none;
 }
-
-a:visited {
-  color: #323232;
-  text-decoration: none;
-}
-
 a:hover {
   color: #323232;
   text-decoration: underline;
@@ -256,19 +250,15 @@ footer {
   margin: auto;
   border-radius: 10%;
 }
-
 .shake:hover {
   -webkit-animation: agitar 0.5s;
-          animation: agitar 0.5s;
+  animation: agitar 0.5s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-.shake:hover {
+  animation-iteration-count: infinite;
   -webkit-animation: agitar 5s;
-          animation: agitar 5s;
+  animation: agitar 5s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes agitar {
