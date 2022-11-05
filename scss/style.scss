@@ -69,19 +69,17 @@ h3{ width: 100%;
     
 
 
-a:link{
-    color: #323232;
-    text-decoration: none;
-}
-a:visited{
-    color: #323232;
-    text-decoration: none;
-}
-a:hover{
-    color: #323232;
-    text-decoration: underline;
-}
-
+a {
+    &:link, &:visited {
+      color: #323232;
+      text-decoration: none;
+    }
+  
+    &:hover {
+      color: #323232;
+      text-decoration: underline;
+    }
+  }
 main{
     margin-left: 0px;
     margin-right: 0px;
@@ -213,19 +211,18 @@ footer{
 /*----------------------------------------------------------------------------- Id---------------------------------------------------------- */
 
 
-#logo{ 
+#logo {
     border-radius: 100px;
     width: 100%;
     max-width: 700px;
     box-shadow: #323232;
+  }
+  
+  @media (max-width: 768px) {
+    #logo {
+      background-color: #000000;
     }
-
-@media (max-width: 768px) 
-    {
-    #logo{
-        background-color: #000000;
-    }
-}
+  }
 #menu{
     top:0;
     margin: 0;
@@ -266,15 +263,19 @@ footer{
     font-size: 10rem;
     margin: auto;
     border-radius: 10%;
-}
-.shake:hover {
-    animation: agitar 0.5s;
-    animation-iteration-count: infinite;
-}
-.shake:hover {
-    animation: agitar 5s;
-    animation-iteration-count: infinite;
-}
+  
+    &:hover {
+      -webkit-animation: agitar 0.5s;
+      animation: agitar 0.5s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation: agitar 5s;
+      animation: agitar 5s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+    }
+  }
+
 @keyframes agitar {
     0% {
         transform: translate(2px, 2px) rotate(0deg);
